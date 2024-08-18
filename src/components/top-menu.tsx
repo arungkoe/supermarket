@@ -13,7 +13,7 @@ export default function TopMenu() {
 				<div className="navbar_links">
 					<ul>
 						<li>
-							<Link href="">Notifikasi</Link
+							<Link href="">Notifikasi</Link>
 							<Link href="">Bantuan</Link>
 						</li>
 					</ul>
