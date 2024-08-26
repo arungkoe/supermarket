@@ -1,14 +1,25 @@
 {
+<<<<<<< HEAD
   "name": "walmart",
   "version": "0.1.0",
   "private": true,
+=======
+  "name": "supermarket",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+>>>>>>> c93e57f8a9f122bc075201f991fa1d6095a9badd
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
@@ -23,5 +34,18 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+=======
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.4.0",
+    "@types/react": "18.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "5.5.4"
+>>>>>>> c93e57f8a9f122bc075201f991fa1d6095a9badd
   }
 }
