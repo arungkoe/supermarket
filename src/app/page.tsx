@@ -1,11 +1,13 @@
 import Image from "next/image";
 import HeaderTop from "@/components/header-top";
+import NavPrimary from "@/components/nav-primary";
 
 export default function Home() {
   return (
 	<>
-		<header>
+		<header className="w-full relative mx-auto">
 			<HeaderTop />
+			<NavPrimary />
 		</header>
 		
 		<section>

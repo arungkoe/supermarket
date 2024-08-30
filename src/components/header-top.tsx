@@ -1,44 +1,58 @@
 import Link from "next/link"; 
 import Image from "next/image"; 
+import WLogo from "/public/wlogo.png";
+import k2v1 from "/public/k2v1.webp"
+import { ChevronDown } from 'lucide-react';
+import { Search } from 'lucide-react';
+import { Heart } from 'lucide-react';
+import { User } from 'lucide-react';
+import { ShoppingCart } from 'lucide-react';
+
+
 
 export default function HeaderTop() {
   return (
-		<div className="header-wrapper">
-			<div className="header-top">
-				<div className="header-top-left">
-					<div className="">Brand</div>
-					<div className="banner">
-						<Image src="" alt="banner" width="0" height="0" />
-						<div className="">
-							<p>How do you want your items</p>
-							<p>sacramento, 98529, </p>
+		<div className="header-wrapper w-full bg-blue-500 m-auto py-6 px-6">
+			<div className="header-top lg:flex lg:justify-between ">
+				<div className="button-mobile hidden"><button>B</button></div>
+				<div className="header-top-left flex items-center">					
+					<div className="mr-4"><Image src={WLogo} alt="logo" width="36" height="36" /></div>
+					<div className="banner bg-blue-800 rounded-full w-80 flex items-center px-4 py-1 justify-between">
+						<Image src={k2v1} alt="banner" width="32" height="32" />
+						<div className="text-base">
+							<p className="font-medium">How do you want your items</p>
+							<p className="font-light">sacramento, 98529, </p>
 						</div>
 						<div>
-							<i>v</i>
+							<i><ChevronDown /></i>
 						</div>
 					</div>
 				</div>
-				<div classclassName="header-top-middle">
-					<div>
-						<form>
-							<input type="search" placeholder="Search everything at Walmart online and in store" />
-							<button><i>v</i></button>
-							<button><i>O</i></button>
+				<div className="header-top-middle flex items-center rounded-full bg-white md:w-[574px] ml-6">
+					<div className="block m-0 p-0">
+						<form className="py-1 px-4 flex justify-between items-center w-full">
+							<input type="search" placeholder="Search everything at Walmart online and in store" className="w-full border-0" />
+							<button className="hidden hover:block"><i>v</i></button>
+							<button className="px-2 py-2 rounded-full bg-blue-800"><Search /></button>
 						</form>
 					</div>
 				</div>
-				<div classclassName="header-top-right cart_account">
-					<ul>
-						<li>
-							<Link><i>0</i><div>Reorder My Items</div></Link>
+				<div className="header-top-right cart_account">
+					<ul className="flex gap-4">
+						<li >
+							<Link href="/">
+								<div className="flex items-center gap-2"><Heart /><div>Reorder <br /><strong>My Items</strong></div></div>
+							</Link>
 						</li>
 						<li>
-							<Link><i>0</i><div>Sign In Account</div></Link>
+							<Link href="/">
+								<div className="flex items-center gap-2"><User /><div>Sign In  <br /><strong>Account</strong></div></div>
+							</Link>
 						</li>
 						<li>
 							<div>
 								<button>
-									<i>icon/i><span>0</span><span>$.0000</span>
+									<i><ShoppingCart /></i><span>0</span><span>$.0000</span>
 								</button>
 							</div>
 						</li>
