@@ -1,14 +1,16 @@
 import Link from "next/link";
-import { FaFacebook } from "react-icons/fa"; 
+import { LayoutGrid } from 'lucide-react';
+import { LayoutList } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 export default function NavPrimary() {
   return (	
-		<div className="nav-primary wrapper navbar w-full bg-blue-200 ">
-			<nav className="container navbar text-white text-sm flex justify-between p-2">
+		<div className="nav-primary wrapper navbar w-full bg-blue-100 ">
+			<nav className="container navbar text-white text-sm p-2 w-full flex">
 				<div className="nav-primary-left flex font-bold text-blue-900">
-					<div className="pr-4"><Link href="#" className="block"><i>Icon</i>Departments</Link><i>v</i></div>
-					<div className="pr-4"><Link href="#" className="block"><i>Icon</i>Services</Link><i>v</i></div>	
-					<div>after</div>			 
+					<div className="flex pr-4"><Link href="#" className="flex gap-2"><i><LayoutGrid /></i>Departments</Link><i><ChevronDown /></i></div>
+					<div className="flex pr-4"><Link href="#" className="flex gap-2"><i><LayoutList /></i>Services</Link><i><ChevronDown /></i></div>	
+					<div className="flex mr-4 after:content-[''] after:ml-0.5 after:border-l after:border-blue-900"></div>			 
 				 </div>
 				 <ul className="nav-primary-right main-menu flex justify-between gap-2 text-blue-900">
 				 	<li>
