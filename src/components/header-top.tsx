@@ -1,4 +1,5 @@
 import Link from "next/link"; 
+import Image from "next/image"; 
 
 export default function HeaderTop() {
   return (
@@ -7,7 +8,9 @@ export default function HeaderTop() {
 				<div className="">Brand</div>
 			</div>
 			<div className="header-space">
-			
+				<div className="banner">
+					<Image /><div>How do you want your items</div><icon
+				</div>
 			</div>
 			<nav className="header-top">
 				<p>Menu Navigation</p>
