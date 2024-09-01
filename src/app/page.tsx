@@ -11,24 +11,27 @@ export default function Home() {
 			<NavPrimary />
 		</header>
 		
-		<section>
-			<HomeColumn />
-		</section>
-		<section>
-			<div>Flash Deal</div>
-		</section>
-		<section>
-			<div>Get your student</div>
-		</section>
-		<section>
-			<div>Grid Fresh decor</div>
-		</section>
-		<section>
-			<div>Wall halloween</div>
-		</section>
-		<section>
-			<div>Make Their Day</div>
-		</section>
+		<main className="w-full bg-slate-100">
+			<section>
+				<HomeColumn />
+			</section>
+			<section>
+				<div>Flash Deal</div>
+			</section>
+			<section>
+				<div>Get your student</div>
+			</section>
+			<section>
+				<div>Grid Fresh decor</div>
+			</section>
+			<section>
+				<div>Wall halloween</div>
+			</section>
+			<section>
+				<div>Make Their Day</div>
+			</section>
+		</main>
+		
 		<footer>
 			<div>Grid Pilihan</div>
 		</footer>
