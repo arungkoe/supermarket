@@ -1,6 +1,7 @@
 import Image from "next/image";
 import HeaderTop from "@/components/header-top";
 import NavPrimary from "@/components/nav-primary";
+import HomeGrid from "@/components/home-grid";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
 		</header>
 		
 		<section>
-			<div>Grid Pilihan</div>
+			<HomeGrid />
 		</section>
 		<section>
 			<div>Flash Deal</div>
