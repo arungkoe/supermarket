@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import k2_47a92855 from "/public/col/k2-_47a92855-e1bf-4072-9d21-4eca3ebf8f64.v1.jpg";
 import k2_4c81c441 from "/public/col/k2-_4c81c441-01fa-45cf-b10c-4b92f0edeab1.v1.jpg";
 import k2_4a636636 from "/public/col/k2-_4a636636-0036-4d03-bc20-9a287e5dfdba.v1.jpg";
@@ -16,31 +17,38 @@ export default function HomeColumn() {
 	<div className="w-full h-4"></div>
     <div className="flex justify-between">	
 		<div className="w-1/4 px-4">
-			<div className="block w-full relative my-8">
+			<div className="block w-full relative rounded-lgd my-8 bg-[#c72c4b]">
 				<Image 
 					src={k2_47a92855} alt="k2-47a92855"  
 					style={{objectFit:"cover"}}
 					className="rounded-lg"
 				/>
-				<div className="absolute top-[50%] left-[50%] text-sky-400">
-					<h2>Block Home Column 1</h2>
+				<div className="text-white absolute z-10 top-[10%] left-[10%]">
+					<h2 className=" text-2xl mb-4">Mattresses from $65 No joke</h2>
+					<Link href="#" className="underline ">Shop Now</Link>
 				</div>
 			</div>	
-			<div className="block w-full rounded-lg">
+			<div className="block w-full relative rounded-lg bg-[#92e2fc] my-8">
 				<Image 
 					src={k2_4c81c441} alt="k2-47a92855"  
 					style={{objectFit:"cover"}}
 					className="rounded-lg"
 				/>
-				<h2>Block Home Column 1</h2>
+				<div className="text-blue-900 absolute z-10 top-[5%] left-[10%]">
+					<h2 className="text-3xl font-bold w-2/3 mb-4">Top brands, super-low prices</h2>
+					<Link href="#" className="underline">Shop fashion</Link>
+				</div>
 			</div>
-			<div className="block w-full rounded-lg">
+			<div className="block w-full rounded-lg relative bg-[##ff596a] my-8">
 				<Image 
 					src={k2_4a636636} alt="k2-47a92855"  
 					style={{objectFit:"cover"}}
 					className="rounded-lg"
 				/>
-				<h2>Block Home Column 1</h2>
+				<div className="text-rose-900 absolute z-10 top-[10%] left-[10%]">
+					<h2 className=" text-2xl mb-4 font-medium">Apple Mac Book</h2>
+					<Link href="#" className="underline">Shop Electronic</Link>
+				</div>
 			</div>
 		</div>
 		<div className="w-2/4 px-2 flex-row">
@@ -50,7 +58,11 @@ export default function HomeColumn() {
 					style={{objectFit:"cover"}}
 					className="rounded-lg"
 				/>
-				<h2>Block Home Column 2</h2>
+				<div className="text-green-900">
+					<h3>1,000s of amazing saving</h3>
+					<h2>Rolls back & more</h2>
+					<Link href="#" className="underline">Shop all</Link>
+				</div>
 			</div>
 			<div className="block w-1/2 rounded-lg inline-block pr-4">
 				<Image 
