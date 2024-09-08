@@ -2,6 +2,7 @@ import Image from "next/image";
 import HeaderTop from "@/components/header-top";
 import NavPrimary from "@/components/nav-primary";
 import HomeColumn from "@/components/home-column";
+import HomeDeals from "@/components/home-deals";
 
 export default function Home() {
   return (
@@ -11,12 +12,12 @@ export default function Home() {
 			<NavPrimary />
 		</header>
 		
-		<main className="w-full bg-slate-100">
+		<main className="w-full ">
 			<section>
 				<HomeColumn />
 			</section>
 			<section>
-				<div>Flash Deal</div>
+				<HomeDeals />
 			</section>
 			<section>
 				<div>Get your student</div>

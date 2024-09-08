@@ -19,7 +19,7 @@ export default function HomeColumn() {
 	<div className="w-full h-4"></div>
     <div className="flex justify-between">	
 		<div className="w-1/4 px-4">
-			<div className="block w-full relative rounded-lgd my-8 bg-[#c72c4b]">
+			<div className="block w-full relative rounded-lg my-8 bg-[#c72c4b]">
 				<Image 
 					src={k2_47a92855} alt="k2-47a92855"  
 					style={{objectFit:"cover"}}
