@@ -23,20 +23,21 @@ export default function HomeDeals() {
 		
 		<div className="w-full flex flex-column justify-center">
 			<Link href="" className=""><CircleChevronLeft strokeWidth={0.5} className="w-20 h-20" /></Link>
-			<ul>
-				<li>
+			<ul className="lg:w-full">
+				<li className="lg:w-2/12 mx-auto">
 					<div className="">
 						<Link href="" className=""></Link>
 						<div> 
-							<Image src={Homall100} alt="Homall100" width={100} height={100} /> 
+							<Image src={Homall100} alt="Homall 100" /> 
 						</div>
-						<div className="h-4">space</div>
-						<div className="h-4">$247.70</div>
-						<div className="h-4 mb-4">More options from $225.69</div>
-						<span className="h-4">
-							HP
-						</span>
-						<div className="button--link h-4">Options</div>
+						<div className="h-4"> </div>
+						<div className="flex justify-between"><h3 className="text-green-500 text-xl">Now $89.99 </h3><span className="inline-block text-md">$169.99</span></div>
+						<div className="mb-4"><p>More options from $225.69</p></div>
+						<div className="mb-4">
+							Homall 100 Gallon <br />
+							Outdoor Box Deck Plastick Resing Storage Box, Brown
+						</div>
+						<button className="button--link block text-center rounded-full bg-gray-200 border border-gray-700 py-2 px-4 text-rose-700">Options</button>
 					</div>
 				</li>
 			</ul>
