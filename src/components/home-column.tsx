@@ -17,8 +17,8 @@ export default function HomeColumn() {
   return ( 
   	<>
 	<div className="w-full h-4"></div>
-    <div className="flex justify-between">	
-		<div className="w-1/4 px-4">
+    <div className="w-full lg:flex  ">	
+		<div className="w-full lg:w-1/4 px-4">
 			<div className="block w-full relative rounded-lg my-8 bg-[#c72c4b]">
 				<Image 
 					src={k2_47a92855} alt="k2-47a92855"  
@@ -53,7 +53,7 @@ export default function HomeColumn() {
 				</div>
 			</div>
 		</div>
-		<div className="w-2/4 px-2 flex flex-row flex-wrap justify-between shrink ">
+		<div className="w-full lg:w-2/4 px-2 flex flex-row flex-wrap justify-between shrink ">
 			<div className="block w-full rounded-lg relative my-8">
 				<Image 
 					src={k2_6f25175c} alt="k2-47a92855"  
@@ -72,7 +72,7 @@ export default function HomeColumn() {
 					<p className="text-4xl font-bold"><sup>$</sup>298</p>
 				</div>
 			</div>
-			<div className="block w-[48%] rounded-lg relative shrink ">
+			<div className="block lg:w-[48%] rounded-lg relative shrink">
 				<Image 
 					src={k2_b3da210c} alt="k2-47a92855"  
 					style={{objectFit:"cover"}}
@@ -83,7 +83,7 @@ export default function HomeColumn() {
 					<Link href="#" className="underline">Shop all</Link>
 				</div>
 			</div>
-			<div className="block w-[48%] rounded-lg relative">
+			<div className="block lg:w-[48%] rounded-lg relative">
 				<Image 
 					src={k2_2818df06} alt="k2-47a92855"  
 					style={{objectFit:"cover"}}
@@ -94,7 +94,7 @@ export default function HomeColumn() {
 					<Link href="#" className="underline">Shop all</Link>
 				</div>
 			</div>
-			<div className="block w-full basis-full rounded-lg mt-4 relative">
+			<div className="block w-full basis-full rounded-lg my-4 relative">
 				<Image 
 					src={k2_010ce435} alt="k2-47a92855"  
 					style={{objectFit:"cover"}}
@@ -107,7 +107,7 @@ export default function HomeColumn() {
 				</div>
 			</div>
 		</div>
-		<div className="w-1/4 px-4">
+		<div className="w-full lg:w-1/4 px-4">
 			<div className="block w-full relative my-8">
 				<Image 
 					src={k2_33b8b577} alt="k2-47a92855"  

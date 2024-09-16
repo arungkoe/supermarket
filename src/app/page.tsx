@@ -3,6 +3,7 @@ import HeaderTop from "@/components/header-top";
 import NavPrimary from "@/components/nav-primary";
 import HomeColumn from "@/components/home-column";
 import HomeDeals from "@/components/home-deals";
+import HomeTrending from "@/components/home-trending";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
 			</section>
 			<section>
 				<HomeDeals />
+			</section>
+			<section>
+				<HomeTrending />
 			</section>
 			<section>
 				<div>Get your student</div>
