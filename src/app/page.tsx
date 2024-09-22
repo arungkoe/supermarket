@@ -3,7 +3,10 @@ import HeaderTop from "@/components/header-top";
 import NavPrimary from "@/components/nav-primary";
 import HomeColumn from "@/components/home-column";
 import HomeDeals from "@/components/home-deals";
-import HomeTrending from "@/components/home-trending";
+import HomeGames from "@/components/home-games";
+import HomeGetIt from "@/components/home-get-it";
+import HomeButteryVelvets from "@/components/home-buttery-velvets";
+import HomeFeaturedVideos from "@/components/home-featured-videos";
 
 export default function Home() {
   return (
@@ -21,8 +24,17 @@ export default function Home() {
 				<HomeDeals />
 			</section>
 			<section>
-				<HomeTrending />
+				<HomeGames />
 			</section>
+			<section>
+				<HomeGetIt />
+			</section> 
+			<section>
+				<HomeButteryVelvets />
+			</section> 
+			<section>
+				<HomeFeaturedVideos />
+			</section> 
 			<section>
 				<div>Get your student</div>
 			</section>
