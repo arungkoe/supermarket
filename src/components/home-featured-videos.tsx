@@ -19,8 +19,8 @@ export default function HomeFeaturedVideos() {
 		<div className="container-section">
 			<div className="wrapper relative">
 				<Link href="" className="absolute z-20 left-0 top-[20%]"><CircleChevronLeft strokeWidth={0.5} className="w-14 h-14 text-gray-900 fill-gray-100" /></Link>
-				<ul className="carousel-container overflow-x-scroll">
-					<li className="lg:w-3/12 border-2 border-slate-100">
+				<ul className="carousel-container w-full overflow-x-scroll block lg:flex gap-2">
+					<li className="lg:min-w-[360px] border-2 border-slate-100">
 						<fieldset>
 							<legend><span>Video from @baggott_farmhouse</span></legend>
 							<div className="relative rounded-lg ">
@@ -37,8 +37,153 @@ export default function HomeFeaturedVideos() {
 								<div>@baggott_farmhouse</div>
 							</div>
 							<div className="w-full flex flex-column">
-								<Link href="/" className="flex bg-slate-500 justify-between no-underline flex">
-									<div className="rounded-lg">
+								<Link href="/" className="flex bgap-2 justify-between items-center no-underline flex">
+									<div className="rounded-lg mx-auto ">
+										<Image src={homes825c9f} alt={"homes825c9f"} width={102} height={102} />
+									</div>
+									<div className="flex flex-col ">
+										<span>$9.98</span>
+										<span>Mainstays 16.5 inch Wall Mounted Floating Shelves 2pack, Natural</span>
+									</div>
+								</Link>
+							</div>
+						</fieldset>
+					</li>
+					<li className="lg:min-w-[360px] border-2 border-slate-100">
+						<fieldset>
+							<legend><span>Video from @baggott_farmhouse</span></legend>
+							<div className="relative rounded-lg ">
+								<video width="320" height="240" controls preload="none" className="rounded-lg">
+								  <source src="/public/videos/720x1280_PROGRESSIVE_a72.mp4" type="video/mp4" />
+								  Your browser does not support the video tag.
+								</video>
+ 
+								<div>
+									<button><Play /></button>
+									<button><VolumeOff /></button>
+									<button><CaptionsOff /></button>
+								</div>
+								<div>@baggott_farmhouse</div>
+							</div>
+							<div className="w-full flex flex-column">
+								<Link href="/" className="flex bgap-2 justify-between items-center no-underline flex">
+									<div className="rounded-lg mx-auto ">
+										<Image src={homes825c9f} alt={"homes825c9f"} width={102} height={102} />
+									</div>
+									<div className="flex flex-col ">
+										<span>$9.98</span>
+										<span>Mainstays 16.5 inch Wall Mounted Floating Shelves 2pack, Natural</span>
+									</div>
+								</Link>
+							</div>
+						</fieldset>
+					</li>
+					<li className="lg:min-w-[360px] border-2 border-slate-100">
+						<fieldset>
+							<legend><span>Video from @baggott_farmhouse</span></legend>
+							<div className="relative rounded-lg ">
+								<video width="320" height="240" controls preload="none" className="rounded-lg">
+								  <source src={"/public/videos/720x1280_PROGRESSIVE_a72.mp4"} type="video/mp4" />
+								  Your browser does not support the video tag.
+								</video>
+ 
+								<div>
+									<button><Play /></button>
+									<button><VolumeOff /></button>
+									<button><CaptionsOff /></button>
+								</div>
+								<div>@baggott_farmhouse</div>
+							</div>
+							<div className="w-full flex flex-column">
+								<Link href="/" className="flex bgap-2 justify-between items-center no-underline flex">
+									<div className="rounded-lg mx-auto ">
+										<Image src={homes825c9f} alt={"homes825c9f"} width={102} height={102} />
+									</div>
+									<div className="flex flex-col ">
+										<span>$9.98</span>
+										<span>Mainstays 16.5 inch Wall Mounted Floating Shelves 2pack, Natural</span>
+									</div>
+								</Link>
+							</div>
+						</fieldset>
+					</li>
+					<li className="lg:min-w-[360px] border-2 border-slate-100">
+						<fieldset>
+							<legend><span>Video from @baggott_farmhouse</span></legend>
+							<div className="relative rounded-lg ">
+								<video width="320" height="240" controls preload="none" className="rounded-lg">
+								  <source src={"/public/videos/720x1280_PROGRESSIVE_a72.mp4"} type="video/mp4" />
+								  Your browser does not support the video tag.
+								</video>
+ 
+								<div>
+									<button><Play /></button>
+									<button><VolumeOff /></button>
+									<button><CaptionsOff /></button>
+								</div>
+								<div>@baggott_farmhouse</div>
+							</div>
+							<div className="w-full flex flex-column">
+								<Link href="/" className="flex bgap-2 justify-between items-center no-underline flex">
+									<div className="rounded-lg mx-auto ">
+										<Image src={homes825c9f} alt={"homes825c9f"} width={102} height={102} />
+									</div>
+									<div className="flex flex-col ">
+										<span>$9.98</span>
+										<span>Mainstays 16.5 inch Wall Mounted Floating Shelves 2pack, Natural</span>
+									</div>
+								</Link>
+							</div>
+						</fieldset>
+					</li>
+					<li className="lg:min-w-[360px] border-2 border-slate-100">
+						<fieldset>
+							<legend><span>Video from @baggott_farmhouse</span></legend>
+							<div className="relative rounded-lg ">
+								<video width="320" height="240" controls preload="none" className="rounded-lg">
+								  <source src={"/public/videos/720x1280_PROGRESSIVE_a72.mp4"} type="video/mp4" />
+								  Your browser does not support the video tag.
+								</video>
+ 
+								<div>
+									<button><Play /></button>
+									<button><VolumeOff /></button>
+									<button><CaptionsOff /></button>
+								</div>
+								<div>@baggott_farmhouse</div>
+							</div>
+							<div className="w-full flex flex-column">
+								<Link href="/" className="flex bgap-2 justify-between items-center no-underline flex">
+									<div className="rounded-lg mx-auto ">
+										<Image src={homes825c9f} alt={"homes825c9f"} width={102} height={102} />
+									</div>
+									<div className="flex flex-col ">
+										<span>$9.98</span>
+										<span>Mainstays 16.5 inch Wall Mounted Floating Shelves 2pack, Natural</span>
+									</div>
+								</Link>
+							</div>
+						</fieldset>
+					</li>
+					<li className="lg:min-w-[360px] border-2 border-slate-100">
+						<fieldset>
+							<legend><span>Video from @baggott_farmhouse</span></legend>
+							<div className="relative rounded-lg ">
+								<video width="320" height="240" controls preload="none" className="rounded-lg">
+								  <source src={"/public/videos/720x1280_PROGRESSIVE_a72.mp4"} type="video/mp4" />
+								  Your browser does not support the video tag.
+								</video>
+ 
+								<div>
+									<button><Play /></button>
+									<button><VolumeOff /></button>
+									<button><CaptionsOff /></button>
+								</div>
+								<div>@baggott_farmhouse</div>
+							</div>
+							<div className="w-full flex flex-column">
+								<Link href="/" className="flex bgap-2 justify-between items-center no-underline flex">
+									<div className="rounded-lg mx-auto ">
 										<Image src={homes825c9f} alt={"homes825c9f"} width={102} height={102} />
 									</div>
 									<div className="flex flex-col ">

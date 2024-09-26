@@ -7,6 +7,7 @@ import HomeGames from "@/components/home-games";
 import HomeGetIt from "@/components/home-get-it";
 import HomeButteryVelvets from "@/components/home-buttery-velvets";
 import HomeFeaturedVideos from "@/components/home-featured-videos";
+import HomeThreeCols from "@/components/home-three-cols";
 
 export default function Home() {
   return (
@@ -34,7 +35,10 @@ export default function Home() {
 			</section> 
 			<section>
 				<HomeFeaturedVideos />
-			</section> 
+			</section>
+			<section>
+				<HomeThreeCols />
+			</section>
 			<section>
 				<div>Get your student</div>
 			</section>
