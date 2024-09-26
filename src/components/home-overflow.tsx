@@ -28,7 +28,7 @@ export default function HomeOverflow() {
 				  </div>
 				</div>
 				<div className="flex-none py-6 px-3 first:pl-6 last:pr-6">
-				  <div classNameclassName="flex flex-col items-center justify-center gap-3">
+				  <div className="flex flex-col items-center justify-center gap-3">
 					<Image className="w-18 h-18 rounded-full" alt={'David'}  width={100} height={100} src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=80"
 					/>
 					<strong className="text-slate-900 text-xs font-medium dark:text-slate-200">David</strong>
@@ -71,7 +71,7 @@ export default function HomeOverflow() {
 				  </div>
 				</div>
 				<div className="flex-none py-6 px-3 first:pl-6 last:pr-6">
-				  <div classNameclassName="flex flex-col items-center justify-center gap-3">
+				  <div className="flex flex-col items-center justify-center gap-3">
 					<Image className="w-18 h-18 rounded-full" alt={'David'} width={100} height={100} src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=80"
 					/>
 					<strong className="text-slate-900 text-xs font-medium dark:text-slate-200">David</strong>
