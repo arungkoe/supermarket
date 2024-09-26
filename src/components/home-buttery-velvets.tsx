@@ -18,7 +18,7 @@ export default function HomeButteryVelvets() {
 						<h2 className="font-bold text-3xl">Buttery velvets & beyond</h2>
 						<h3 className="font-light text-lg">Surround yourself in warmth.</h3>
 					</div>
-					<Link href="/" className="mr-4">View all</Link>
+					<Link href="/" className="mr-4r">View all</Link>
 				</div>
 				<div className="container-section relative">
 					<Link href="" className="absolute z-20 left-0 top-[20%]"><CircleChevronLeft strokeWidth={0.5} className="w-14 h-14 text-gray-900 fill-gray-100" /></Link>
