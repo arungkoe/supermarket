@@ -8,7 +8,7 @@ export default function HomeOverflow() {
 			<div className="overflow-x-auto flex">
 				<div className="flex-none py-6 px-3 first:pl-6 last:pr-6">
 				  <div className="flex flex-col items-center justify-center gap-3">
-					<Image className="w-18 h-18 rounded-full" src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=80"
+					<Image className="w-18 h-18 rounded-full" width={0} height={0} src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=80"
 					/>
 					<strong className="text-slate-900 text-xs font-medium dark:text-slate-200">Andrew</strong>
 				  </div>
