@@ -7,14 +7,16 @@ export default function HomeThreeCols() {
     <>
 		<div className="container-section w-full">
 			<div  className="wrapper flex gap-2">
-				<div className="cols w-4/12 h-96 border-2 border-sky-300 p-2 relative flex items-center justify-start z-0">
-					<div className="w-100 ">
-						<Image src={k2zon49} alt={'k2zon49'} fill style={{objectFit: "cover", }} className="overflow-hidden" />
+				<div className="cols w-4/12 p-2 relative flex justify-start z-0">
+					<div className="w-100 overflow-hidden ">
+						<Image src={k2zon49} alt={'k2zon49'} fill style={{objectFit: "cover", }} className="overflow-hidden rounded-lg" />
 					</div>
 					<div className="w-60 flex flex-wrap justify-start items-center z-10 absolute" >
-						<p>No rules, no judgment</p>
-						<p>Style without limits</p>
-						<Link href="/"><span>Shop fashion</span></Link>
+						<p className="w-full text-gray-800 font-ligt text-lg">No rules, no judgment</p>
+						<p className="w-full text-gray-800 font-ligt text-4xl mb-8">Style without limits</p>
+						<Link href="/" className="border border-gray-800 text-gray-800 rounded-full bg-gray-100 font-bold py-2 px-4">
+							<span>Shop fashion</span>
+						</Link>
 					</div>
 				</div>
 				<div className="cols w-4/12 h-96 border-2 border-lime-300 p-2">
